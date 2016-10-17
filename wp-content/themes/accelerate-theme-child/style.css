@@ -1,0 +1,183 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Your Name!
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+/* Homepage Styles */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+#masthead nav ul {
+  padding-bottom: 25px;
+}
+#masthead nav ul li{
+  float: left;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+/*Homepage Blog Post Styles */
+.blog-post {
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+.blog-post h4 {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  color: #a6a6a6;
+  text-transform: uppercase;
+}
+
+.blog-post h2 {
+  font-size: 24px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.blog-post .read-more-link {
+  font-size: 24px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #45ac9d;
+  text-transform: uppercase;
+}
+
+.featured-work h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+ul h5 {
+  font-weight: normal;
+
+}
+.widget-area {
+  width: 40%;
+  float: right;
+  display: inline;
+  margin-right: 10%;
+}
+
+.widget-area h3 {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  color: #a6a6a6;
+  text-transform: uppercase;
+}
+
+
+/*End Homepage Blog Post Styles */
+
+/*Case Study Styles*/
+aside.case-study-sidebar {
+	float: left;
+	width: 300px;
+}
+div.case-study-images {
+	float: left;
+	width: 606px;
+}
+div.case-study-images img {
+	display: block;
+	margin-bottom: 50px;
+	border: 1px solid #dddddd;
+}
+/*End Case Study Styles*/
+
+/*Archive Case Studies Style*/
+.case-study-sidebar h6 {
+  font-weight: normal;
+  font-size: 14px;
+  color: grey;
+}
+
+/*End Archive Case Studies Style*/
+
+/*Contact Page Styles*/
+
+/*Name and Email Fields*/
+#ninja_forms_field_1_div_wrap, #ninja_forms_field_2_div_wrap, #ninja_forms_field_3_div_wrap {
+  display: inline-block;
+}
+#ninja_forms_field_1_div_wrap {
+  width: 48%;
+  float: left;
+  margin-right: 5px;
+}
+#ninja_forms_field_2_div_wrap {
+  width: 49%;
+  float: right;
+}
+#ninja_forms_field_3_div_wrap {
+  width: 100%;
+}
+
+/*Send Button*/
+#ninja_forms_field_4_div_wrap input {
+  background-color: #45ac9d;
+  color: white;
+  padding: 10px 60px;
+  font-family: 'Montserrat';
+  float: right;
+}
+
+/*Control width of whole form*/
+#ninja_forms_form_1_all_fields_wrap, .pageTitle, .pageTitle + p {
+  width: 70%;
+  margin-left: 15%;
+}
+#ninja_forms_form_1_all_fields_wrap label {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+
+/*End Contact Page Styles*/
+
+/*404 Page Styles*/
+.aw-title {
+  font-family: 'Montserrat';
+  font-size: 48px;
+  text-align: center;
+  color: #45ac9d;
+}
+.aw-content {
+  background: url("img/aw-nuts.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+  width: 960px;
+  height: 600px;
+
+}
+.aw-text {
+  color: black;
+  background-color: white;
+  font-family: 'Montserrat';
+  font-size: 36px;
+  text-align: center;
+  padding-top: 30px;
+}
+/*End 404 Styles*/
+
+/*Mailchimp Styles*/
+.mc4wp-form-fields input[type=submit] {
+  background-color: #45ac9d;
+  border-radius: 2px;
+  color: white;
+  font-family: 'Montserrat'
+}
